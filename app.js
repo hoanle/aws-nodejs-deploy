@@ -38,6 +38,9 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 console.log("star db successfully")
+
+app.listen(3000, () => console.log(`Example app listening on port ${3000}!`))
+
 /*
 mongoose.connect("mongodb://localhost/aws_database", {
   useNewUrlParser: true,
